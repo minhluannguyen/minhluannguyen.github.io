@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fbe8d3;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #000000;
+    margin: 20px;
+}
+
+@media (min-width: 768px) {
+    section {
+      flex-direction: row;
+      padding-right: 0;
+    }
+}
+
+div.contact-detail {
+    a[href] {
+        color: #5638d6;
+        text-decoration: underline;
+    }
+}
+
+#certificates ul {
+    list-style: none;
+}
+
+#certificates ul li {
+    font-size: 16px;
+    padding: 5px 0;
+}

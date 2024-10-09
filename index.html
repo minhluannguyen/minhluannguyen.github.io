@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luân's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="flex items-center justify-between my-5 mx-auto w-5/6 gap-20">
+        <div class="logo ml-5">
+            <h1>LUNDI</h1>
+        </div>
+        <nav class="mr-5 py-3 px-6 h-full border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]"> <!--hover:translate-x-[5px] hover:translate-y-[5px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)]-->
+            <ul class="flex gap-10">
+                <li><a class="font-sansserif hover:border-black hover:border-2 hover:rounded-md p-2" href="#">Home</a></li>
+                <li><a class="font-sansserif hover:border-black hover:border-2 hover:rounded-md p-2" href="/CV/CV_Minh_Luan_NGUYEN.pdf" target="_blank">CV</a></li>
+                <li><a class="font-sansserif hover:border-black hover:border-2 hover:rounded-md p-2" href="#projects">Projects</a></li>
+                <li><a class="font-sansserif hover:border-black hover:border-2 hover:rounded-md p-2" href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+        <!-- <button class="start-btn">Start Free Trial</button> -->
+    </header>
+    <div class="flex flex-col m-8 mx-auto w-5/6 h-full">
+        
+        <section class="flex flex-col sm:flex-row p-5 gap-5 items-center sm:items-start">
+            <div class="m-4 h-full sm:w-auto flex justify-center">
+                <img class="border-black border rounded-full w-56 sm:w-96 md:w-80" src="img/profile-pic.jpg" alt="Profile Picture">
+            </div>
+            <div class="flex flex-col content-center justify-center sm:pr-20 text-center sm:text-left">
+                <h2 class="font-semibold text-4xl font-serif">NGUYỄN Minh-Luân</h2>
+                <p class="font-mono text-sm">MASTER'S STUDENT IN CRYPTOGRAPHY AND INFORMATION SECURITY |
+                    FORMER SOFTWARE ENGINEER
+                    </p>
+                <br>
+                <!-- <h2 class="font-semibold text-xl">About Me</h2> -->
+                <p class="font-mono text-justify">Master's student with a software engineering background, eager to apply skills and knowledge in cryptography and cybersecurity research through an internship opportunity.
+                    <br>Areas that I am interested in are <span class="font-mono italic">System & Network Security, Software Security, Digital Forensics, Applied Cryptography, and Privacy. </span></p>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-8">
+            <section class="col-span-3 flex flex-col w-8/9">
+                <h2 class="title font-mono">Contact</h2>
+                <div class="flex flex-col gap-1 ">
+                    <div class="flex gap-8 contact-detail">
+                        <p class="w-[70px] font-mono">Phone: </p>
+                        <p class="font-mono">(+33) 7 45 65 90 12</p>
+                    </div>
+                    <div class="flex gap-8 contact-detail">
+                        <p class="w-[70px] font-mono">Address:</p>
+                        <p class="font-mono">Limoges, France</p>
+                    </div>
+                    <div class="flex gap-8 contact-detail">
+                        <p class="w-[70px] font-mono">Email:</p>
+                        <a class="font-mono" href="mailto:minh-luan.nguyen@etu.unilim.fr">minh-luan.nguyen@etu.unilim.fr</a>
+                    </div>
+                    <div class="flex gap-8 contact-detail">
+                        <p class="w-[70px] font-mono">Github:</p>
+                        <a class="font-mono" href="https://github.com/minhluannguyen">minhluannguyen</a>
+                    </div>
+                    <div class="flex gap-8 contact-detail">
+                        <p class="w-[70px] font-mono">Linkedin:</p>
+                        <a class="font-mono" href="https://www.linkedin.com/in/luan-nguyen-minh/">NGUYỄN Minh-Luân</a>
+                    </div>
+                </div>
+
+                <h2 class="title font-mono mt-3">Languages</h2>
+                <div class="flex flex-col gap-1 ">
+                    <div class="flex gap-8 contact-detail">
+                        <p class="w-[80px] font-mono">Vietnamese: </p>
+                        <p class="font-mono">Native</p>
+                    </div>
+                    <div class="flex gap-8 contact-detail">
+                        <p class="w-[80px] font-mono">English:</p>
+                        <p class="font-mono">Professional working proficiency</p>
+                    </div>
+                    <div class="flex gap-8 contact-detail">
+                        <p class="w-[80px] font-mono">French:</p>
+                        <p class="font-mono">Limited working proficiency</p>
+                    </div>
+                </div>
+
+                <h2 class="title font-mono mt-3">Interests</h2>
+                <div class="flex flex-col gap-1 text-sm">
+                    <p class="font-mono">Reading book</p>
+                    <p class="font-mono">Photography</p>
+                    <p class="font-mono">Collecting antiques</p>
+                </div>
+            </section>
+
+            <section class="col-span-5">
+                <h2 class="title font-mono">Experience</h2>
+                <div class="mr-5">
+                    <div class="flex justify-between font-semibold my-1">
+                        <h3 class="font-mono">DEK Technologies Vietnam</h3>
+                        <div class="flex flex-col font-semibold text-right">
+                            <p class="font-mono -mb-1">Oct 2021 - Jun 2023</p>
+                            <p class="font-mono text-sm">Ho Chi Minh City, Vietnam</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between italic text-sm">
+                        <p class="font-mono">Software Engineer</p>
+                        <p class="font-mono">Jan 2022 - Jun 2023</p>
+                    </div>
+                        <p class="font-mono px-[30px]">
+                            • Developed and maintained microservices for collecting and monitoring system metrics built with Go and Prometheus, deployed with Kubernetes.<br>
+                            • Participated in releasing products monthly with Jenkins and GitLab.<br>
+                            • Provided customer support for product usage issues.<br>
+                            • Collaborated with other teams and stakeholders in Vietnam, Australia, and Sweden.
+                        </p>
+                    <div class="flex justify-between italic text-sm">
+                        <p class="font-mono">Intern</p>
+                        <p class="font-mono">Oct 2021 - Jun 2022</p>
+                    </div>
+                    <p class="font-mono px-[30px]">
+                        • Contributed to a small team developing a chat app with high availability in C/C++.<br>
+                        • Utilized Agile methodologies, and engaged with various roles in a business environment.
+                    </p>
+                </div>
+            </section>
+        </div>
+        
+        <section class="">
+            <h2 class="title font-mono">Education</h2>
+            <div class="mr-5 my-2">
+                <div class="flex justify-between font-semibold">
+                    <h3 class="font-mono">University of Limoges, France</h3>
+                    <p class="font-mono">Oct 2023 - Now</p>
+                </div>
+                    <p class="font-mono italic text-sm">
+                        Master's degree, Cryptology and Information Security
+                    </p>
+                    <p class="font-mono px-[0px] text-sm">
+                        • Master 1: GPA: 15.419/20, Mention: Bien.
+                    </p>
+            </div>
+            <div class="mr-5 my-2">
+                <div class="flex justify-between font-semibold">
+                    <h3 class="font-mono">University of Science, Vietnam National University, Ho Chi Minh City, Vietnam</h3>
+                    <p class="font-mono">Oct 2018 - Sep 2022</p>
+                </div>
+                    <p class="font-mono italic text-sm">
+                        Bachelor of Science in Software Engineering
+                    </p>
+                    <p class="font-mono px-[0px] text-sm">
+                        • GPA: 8.68/10.
+                    </p>
+            </div>
+            <div class="mr-5 my-2">
+                <div class="flex justify-between font-semibold">
+                    <h3 class="font-mono">Hoang Le Kha High School for the Gifted, Tay Ninh, Vietnam</h3>
+                    <p class="font-mono">Oct 2015 - Jun 2018</p>
+                </div>
+                    <p class="font-mono italic text-sm">
+                        Mathematics speciality, High School Diploma
+                    </p>
+                    <p class="font-mono px-[0px] text-sm">
+                    </p>
+            </div>
+        </section>
+
+        <section id="projects" class="">
+            <h2 class="title font-mono">Project</h2>
+            <div class="mr-5 my-2">
+                <div class="flex justify-between font-semibold">
+                    <h3 class="font-mono">• Integration of Ascon cryptosystem in a SoC with FPGA</h3>
+                    <div class="flex flex-col font-semibold text-right">
+                        <p class="font-mono -mb-1">Oct 2023 - May 2024</p>
+                        <p class="font-mono"></p>
+                    </div>
+                </div>
+                    <p class="font-mono italic text-sm px-[0px]">
+                        Tools: FPGA, Verilog, Yosys, C/C++
+                    </p>
+                    <p class="font-mono px-[20px] ">
+                        ◦ A part of the “Software Analysis and Development” Master 1 Project.<br>
+                        ◦ Understanding of the development workflow on FPGA.<br>
+                        ◦ Implemented Ascon cryptosystem.<br>
+                        ◦ Supervised by Prof. Pierre François BONNEFOI.
+                    </p>
+            </div>
+            <div class="mr-5 my-2">
+                <div class="flex justify-between font-semibold">
+                    <h3 class="font-mono">• Hexfresh: Gamification in fresher training system</h3>
+                    <div class="flex flex-col font-semibold text-right">
+                        <p class="font-mono -mb-1">Oct 2021 - Jun 2022</p>
+                        <p class="font-mono"></p>
+                    </div>
+                </div>
+                    <p class="font-mono italic text-sm px-[0px]">
+                        Tools: ReactJS, React Native, Node.js, ExpressJS, MySQL, MongoDB
+                    </p>
+                    <p class="font-mono px-[20px] ">
+                        ◦ A capstone project about integrating gamification into a fresher training system.<br>
+                        ◦ Acted as Mobile Developer and Scrum master for a group of 6 people.<br>
+                        ◦ Worked with stakeholders to exchange requirements.<br>
+                        ◦ Supervised by Mr. Duy Quang TRAN, M.Sc.
+                    </p>
+            </div>
+        </section>
+
+        <section class="">
+            <h2 class="title font-mono">Skills</h2>
+            <div class="flex mr-5 my-2">
+                <div class="flex flex-col w-1/2">
+                    <h3 class="font-mono italic text-sm">Programming Languages</h3>
+                    <p class="font-mono">C/C++, Python, JavaScript</p>
+                </div>
+                <div class="flex flex-col w-1/2">
+                    <h3 class="font-mono italic text-sm">Tools & Technologies</h3>
+                    <p class="font-mono">Git, Docker, Kubernetes, Prometheus, Jenkins</p>
+                    <p class="font-mono">ReactJS, React Native, Node.js, ExpressJS, MySQL, MongoDB</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <h2 class="title font-mono">Activities</h2>
+            <div class="mr-5 my-2">
+                <div class="flex justify-between font-semibold">
+                    <h3 class="font-mono">HLK Tech Club, Hoang Le Kha High School for the Gifted</h3>
+                    <div class="flex flex-col font-semibold text-right">
+                        <p class="font-mono -mb-1">2018 - 2020</p>
+                        <p class="font-mono"></p>
+                    </div>
+                </div>
+                    <p class="font-mono italic text-sm px-[0px]">
+                        Co-founder
+                    </p>
+                    <p class="font-mono">
+                        Organize competitions, tech talk events for high school students to spread knowledge and passion about technology.
+                    </p>
+            </div>
+
+            <h2 class="title font-mono mt-5">Certifications</h2>
+            <div class="mr-5 my-2">
+                <div class="flex justify-between font-semibold">
+                    <h3 class="font-mono">Vietnam National University - English Proficiency Test (VNU-EPT)</h3>
+                    <div class="flex flex-col font-semibold text-right">
+                        <p class="font-mono -mb-1">2019</p>
+                        <p class="font-mono"></p>
+                    </div>
+                </div>
+                    <p class="font-mono italic text-sm px-[0px]">
+                        (264/400)
+                    </p>
+            </div>
+        </section>
+        
+    </div>
+    </body>
+    </html>
+    
