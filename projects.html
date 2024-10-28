@@ -110,7 +110,7 @@
                     </a>
                 </div>
             </section>
-            
+
             <section class="flex flex-col p-5 gap-2 border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[radial-gradient(#80808080_1px,transparent_1px)] [background-size:16px_16px]">
                 <div class="flex flex-row relative w-full items-center justify-evenly px-5 py-5 m750:px-5 m750:py-5 mb-5">
                     <!-- Previous Button -->
@@ -121,11 +121,110 @@
                         </svg>
                         <span class="sr-only">Previous slide</span>
                     </button>
+                    
+                    <div class="carousel relative max-w-[500px] max-h-[500px] min-w-[150px] min-h-[150px] border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" role="region" aria-roledescription="carousel">
+                        <div class="overflow-hidden">
+                            <!-- Carousel slides container -->
+                            <div id="carouselSlides2" class="carousel flex transition-transform rounded-md duration-300 ease-in-out">
+                                <!-- Slide 0 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 1;">
+                                    <img class="rounded-md" src="img/projects/proxy/Proxy.png">
+                                </div>
+                                
+                                <!-- Slide 1 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 0;">
+                                    <img class="rounded-md" src="img/projects/proxy/censor_filter.png">
+                                </div>
+                                
+                                <!-- Slide 2 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 0;">
+                                    <img class="rounded-md" src="img/projects/proxy/replace_filter.png">
+                                </div>
+
+                                <!-- Slide 3 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 0;">
+                                    <img class="rounded-md" src="img/projects/proxy/censored-web2.png">
+                                </div>
+
+                                <!-- Slide 4 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 0;">
+                                    <img class="rounded-md" src="img/projects/proxy/censored-web.png">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Next Button -->
+                    <button id="nextBtn2" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-6 w-6">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                        <span class="sr-only">Next slide</span>
+                    </button>
+                </div>
+                
+                <div class="flex flex-col content-center justify-center">
+                    <p class="font-mono text-xl font-semibold">
+                        Proxy Server
+                    </p>
+                    <p class="font-mono font-semibold mb-2">Jan 2024</p>
+                    <p class="font-mono text-justify">
+                        This project a part of the "Network Protocols and Programming" course.
+                        <br>
+                        It is a proxy server functions as a middleman connecting the 
+                        user (web browser) and the Internet (servers).
+                    </p>
+                    <br>
+                    <p class="font-mono text-justify">
+                        Features:
+                    </p>
+                    <ul class="list-disc pl-5 text-sm">
+                        <li class="font-mono">
+                            Enhanced privacy and security: By going through the proxy, the client can avoid threads
+                            from malicious content.
+                        </li>
+                        <li class="font-mono">
+                            Caching: By caching frequently accessed resources locally, proxy servers accelerate subsequent
+                             access to those resources.
+                        </li>
+                        <li class="font-mono">
+                            Content filtering and access control: Proxy servers can filter content based on predefined
+                            rules, replacing or redacting inappropriate content, and blocking access to specific websites
+                            or types of content.
+                        </li>
+                    </ul>
+                    <br>
+                    <p class="font-mono italic text-sm px-[0px]">
+                        Tools: Python, HTML
+                    </p>
+                </div>
+                <div class="flex flex-row gap-5 content-center justify-start ">
+                    <a href="https://github.com/minhluannguyen/PPRes-projet" style="font-size:30px" class="w-[55px] h-[55px] flex items-center justify-center font-sansserif border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/107we4Ki74xzVkCSIfHFBm4k2tB26pxHV/view?usp=sharing" style="font-size:20px" class=" flex py-3 px-6 items-center justify-center font-sansserif border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" target="_blank">
+                        Report
+                    </a>
+                </div>
+            </section>
+            
+            <section class="flex flex-col p-5 gap-2 border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[radial-gradient(#80808080_1px,transparent_1px)] [background-size:16px_16px]">
+                <div class="flex flex-row relative w-full items-center justify-evenly px-5 py-5 m750:px-5 m750:py-5 mb-5">
+                    <!-- Previous Button -->
+                    <button id="prevBtn3" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] mr-5 p-[10px] flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-6 w-6">
+                            <path d="m12 19-7-7 7-7"></path>
+                            <path d="M19 12H5"></path>
+                        </svg>
+                        <span class="sr-only">Previous slide</span>
+                    </button>
 
                     <div class="carousel relative max-w-[500px] max-h-[500px] min-w-[150px] min-h-[150px] border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" role="region" aria-roledescription="carousel">
                         <div class="overflow-hidden">
                             <!-- Carousel slides container -->
-                            <div id="carouselSlides2" class="carousel flex transition-transform rounded-md duration-300 ">
+                            <div id="carouselSlides3" class="carousel flex transition-transform rounded-md duration-300 ">
                                 <!-- Slide 0 -->
                                 <div class="flex place-items-center justify-center min-w-full max-h-fit">
                                     <img class="rounded-md" src="img/projects/hexfresh/hexfresh (0).png">
@@ -171,7 +270,7 @@
                     </div>
 
                     <!-- Next Button -->
-                    <button id="nextBtn2" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
+                    <button id="nextBtn3" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-6 w-6">
                             <path d="M5 12h14"></path>
                             <path d="m12 5 7 7-7 7"></path>
@@ -196,6 +295,11 @@
                         a web application for the Admin, and several API servers.
                         <br>
                         I was responsible for the mobile application development and the Scrum master role.
+                        <br>
+                        <br>
+                        Gamification is the strategic attempt to enhance systems, services, organizations, and activities by creating similar experiences to those experienced when playing games in order to motivate and engage users.
+                        This project applies gamification through the use of points, badges, and leaderboards to create a competitive environment for learners
+                        as well as to provide a sense of achievement and recognition with phases and checklists.
                     </p>
                     <br>
                     <p class="font-mono italic text-sm px-[0px]">
