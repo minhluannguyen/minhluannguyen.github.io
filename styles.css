@@ -25,7 +25,6 @@ section {
 @media (min-width: 768px) {
     section {
       flex-direction: row;
-      padding-right: 0;
     }
 }
 
