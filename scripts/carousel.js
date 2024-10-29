@@ -42,6 +42,7 @@ function initializeCarousel(carouselId, prevBtnId, nextBtnId) {
     });
 }
 
-initializeCarousel('carouselSlides1', 'prevBtn1', 'nextBtn1');
-initializeCarousel('carouselSlides2', 'prevBtn2', 'nextBtn2');
-initializeCarousel('carouselSlides3', 'prevBtn3', 'nextBtn3');
+initializeCarousel('carouselSlidesFPGA', 'prevBtnFPGA', 'nextBtnFPGA');
+initializeCarousel('carouselSlidesWhisper', 'prevBtnWhisper', 'nextBtnWhisper');
+initializeCarousel('carouselSlidesProxy', 'prevBtnProxy', 'nextBtnProxy');
+initializeCarousel('carouselSlidesHexfresh', 'prevBtnHexfresh', 'nextBtnHexfresh');

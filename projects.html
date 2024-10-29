@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Luân's Portfolio</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/img/favicon/site.webmanifest">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://cdn.tailwindcss.com"></script>
@@ -28,7 +32,7 @@
             <section class="flex flex-col p-5 gap-2 border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[radial-gradient(#80808080_1px,transparent_1px)] [background-size:16px_16px]">
                 <div class="flex flex-row relative w-full items-center justify-evenly px-5 py-5 m750:px-5 m750:py-5 mb-5">
                     <!-- Previous Button -->
-                    <button id="prevBtn1" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] mr-5 p-[10px] flex items-center justify-center">
+                    <button id="prevBtnFPGA" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] mr-5 p-[10px] flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-6 w-6">
                             <path d="m12 19-7-7 7-7"></path>
                             <path d="M19 12H5"></path>
@@ -39,7 +43,7 @@
                     <div class="carousel relative max-w-[500px] max-h-[500px] min-w-[150px] min-h-[150px] border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" role="region" aria-roledescription="carousel">
                         <div class="overflow-hidden">
                             <!-- Carousel slides container -->
-                            <div id="carouselSlides1" class="carousel flex transition-transform rounded-md duration-300 ease-in-out">
+                            <div id="carouselSlidesFPGA" class="carousel flex transition-transform rounded-md duration-300 ease-in-out">
                                 <!-- Slide 0 -->
                                 <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 1;">
                                     <img class="rounded-md" src="img/projects/fpga/blackice-ii.png">
@@ -60,7 +64,7 @@
                     </div>
 
                     <!-- Next Button -->
-                    <button id="nextBtn1" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
+                    <button id="nextBtnFPGA" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-6 w-6">
                             <path d="M5 12h14"></path>
                             <path d="m12 5 7 7-7 7"></path>
@@ -114,7 +118,7 @@
             <section class="flex flex-col p-5 gap-2 border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[radial-gradient(#80808080_1px,transparent_1px)] [background-size:16px_16px]">
                 <div class="flex flex-row relative w-full items-center justify-evenly px-5 py-5 m750:px-5 m750:py-5 mb-5">
                     <!-- Previous Button -->
-                    <button id="prevBtn2" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] mr-5 p-[10px] flex items-center justify-center">
+                    <button id="prevBtnWhisper" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] mr-5 p-[10px] flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-6 w-6">
                             <path d="m12 19-7-7 7-7"></path>
                             <path d="M19 12H5"></path>
@@ -125,7 +129,97 @@
                     <div class="carousel relative max-w-[500px] max-h-[500px] min-w-[150px] min-h-[150px] border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" role="region" aria-roledescription="carousel">
                         <div class="overflow-hidden">
                             <!-- Carousel slides container -->
-                            <div id="carouselSlides2" class="carousel flex transition-transform rounded-md duration-300 ease-in-out">
+                            <div id="carouselSlidesWhisper" class="carousel flex transition-transform rounded-md duration-300 ease-in-out">
+                                <!-- Slide 0 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 1;">
+                                    <img class="rounded-md" src="img/projects/whispernet/covert-channel.png">
+                                </div>
+                                
+                                <!-- Slide 1 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 0;">
+                                    <img class="rounded-md" src="img/projects/whispernet/whispernet-help.png">
+                                </div>
+                                
+                                <!-- Slide 2 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 0;">
+                                    <img class="rounded-md" src="img/projects/whispernet/hidden.png">
+                                </div>
+
+                                <!-- Slide 3 -->
+                                <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 0;">
+                                    <img class="rounded-md" src="img/projects/whispernet/chatmode.png">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Next Button -->
+                    <button id="nextBtnWhisper" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-6 w-6">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                        <span class="sr-only">Next slide</span>
+                    </button>
+                </div>
+                
+                <div class="flex flex-col content-center justify-center">
+                    <p class="font-mono text-xl font-semibold">
+                        WhisperNet
+                    </p>
+                    <p class="font-mono font-semibold mb-2">Jan 2024</p>
+                    <p class="font-mono text-justify">
+                        This project a part of the  "Network Audit and Security" course.
+                        <br>
+                        It is a tool written in Python, designed for covert communication 
+                        using the ICMP protocol.
+                    </p>
+                    <br>
+                    <p class="font-mono text-justify">
+                        Features:
+                    </p>
+                    <ul class="list-disc pl-5 text-sm">
+                        <li class="font-mono">
+                            ICMP-based covert data transfer: Uses ICMP packets for discreet communication.
+                        </li>
+                        <li class="font-mono">
+                            Flexible security options: Supports XOR obfuscation and AES encryption.
+                        </li>
+                        <li class="font-mono">
+                            Chat functionality over UDP or TCP: Allows secure chat sessions over covert channels.
+                        </li>
+                    </ul>
+                    <br>
+                    <p class="font-mono italic text-sm px-[0px]">
+                        Tools: Python, Scapy, Bash
+                    </p>
+                </div>
+                <div class="flex flex-row gap-5 content-center justify-start ">
+                    <a href="https://github.com/minhluannguyen/audit-projet" style="font-size:30px" class="w-[55px] h-[55px] flex items-center justify-center font-sansserif border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a href="https://github.com/minhluannguyen/audit-projet/blob/main/report/report.pdf" style="font-size:20px" class=" flex py-3 px-6 items-center justify-center font-sansserif border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" target="_blank">
+                        Report
+                    </a>
+                </div>
+            </section>
+
+            <section class="flex flex-col p-5 gap-2 border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[radial-gradient(#80808080_1px,transparent_1px)] [background-size:16px_16px]">
+                <div class="flex flex-row relative w-full items-center justify-evenly px-5 py-5 m750:px-5 m750:py-5 mb-5">
+                    <!-- Previous Button -->
+                    <button id="prevBtnProxy" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] mr-5 p-[10px] flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-6 w-6">
+                            <path d="m12 19-7-7 7-7"></path>
+                            <path d="M19 12H5"></path>
+                        </svg>
+                        <span class="sr-only">Previous slide</span>
+                    </button>
+                    
+                    <div class="carousel relative max-w-[500px] max-h-[500px] min-w-[150px] min-h-[150px] border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" role="region" aria-roledescription="carousel">
+                        <div class="overflow-hidden">
+                            <!-- Carousel slides container -->
+                            <div id="carouselSlidesProxy" class="carousel flex transition-transform rounded-md duration-300 ease-in-out">
                                 <!-- Slide 0 -->
                                 <div class="flex place-items-center justify-center min-w-full max-h-fit" style="z-index: 1;">
                                     <img class="rounded-md" src="img/projects/proxy/Proxy.png">
@@ -156,7 +250,7 @@
                     </div>
 
                     <!-- Next Button -->
-                    <button id="nextBtn2" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
+                    <button id="nextBtnProxy" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-6 w-6">
                             <path d="M5 12h14"></path>
                             <path d="m12 5 7 7-7 7"></path>
@@ -213,7 +307,7 @@
             <section class="flex flex-col p-5 gap-2 border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[radial-gradient(#80808080_1px,transparent_1px)] [background-size:16px_16px]">
                 <div class="flex flex-row relative w-full items-center justify-evenly px-5 py-5 m750:px-5 m750:py-5 mb-5">
                     <!-- Previous Button -->
-                    <button id="prevBtn3" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] mr-5 p-[10px] flex items-center justify-center">
+                    <button id="prevBtnHexfresh" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] mr-5 p-[10px] flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-6 w-6">
                             <path d="m12 19-7-7 7-7"></path>
                             <path d="M19 12H5"></path>
@@ -224,7 +318,7 @@
                     <div class="carousel relative max-w-[500px] max-h-[500px] min-w-[150px] min-h-[150px] border-black border rounded-md shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)]" role="region" aria-roledescription="carousel">
                         <div class="overflow-hidden">
                             <!-- Carousel slides container -->
-                            <div id="carouselSlides3" class="carousel flex transition-transform rounded-md duration-300 ">
+                            <div id="carouselSlidesHexfresh" class="carousel flex transition-transform rounded-md duration-300 ">
                                 <!-- Slide 0 -->
                                 <div class="flex place-items-center justify-center min-w-full max-h-fit">
                                     <img class="rounded-md" src="img/projects/hexfresh/hexfresh (0).png">
@@ -270,7 +364,7 @@
                     </div>
 
                     <!-- Next Button -->
-                    <button id="nextBtn3" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
+                    <button id="nextBtnHexfresh" class="border-black border rounded-md transition ease-in-out hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[0px_0px_0px_rgba(0,0,0,1)] shadow-[3px_3px_0px_rgba(0,0,0,1)] bg-[rgb(163,230,54)] ml-5 p-[10px] flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-6 w-6">
                             <path d="M5 12h14"></path>
                             <path d="m12 5 7 7-7 7"></path>
